@@ -1,0 +1,14 @@
+body{
+	text-align: center;
+	background-color: rgba(25,190,0,.3);
+}
+
+h1{
+	text-transform: uppercase;
+}
+
+#subheading{
+	font-size: 23px;
+	font-weight: 40px;
+	color: red;
+}
