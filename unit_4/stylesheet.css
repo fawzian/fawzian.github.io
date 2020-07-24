@@ -1,0 +1,49 @@
+.header{
+	background-color: white;
+	text-align: center;
+
+}
+
+.above{
+	background-image: url(images/paint.jpg);
+	background-size: cover;
+	text-align: center;
+	text-decoration-line: underline;
+
+}
+
+.below{
+	box-sizing: border-box;
+	width: 100%;
+	border:  solid white 10px;
+	padding: 10px;
+}
+
+#email{
+	background-color: #F4E2D2;
+	text-align: center;
+}
+
+#website{
+	background-color: #FFF5FB;
+	text-align: center;
+}
+
+#socialmedia{
+	background-color: #DBC4DF;
+	text-align: center;
+
+}
+
+#ads{
+	background-color: #B88BAD;
+	text-align: center;
+
+}
+
+
+.footer{
+	background-color: white;
+	text-align: center;
+
+}
