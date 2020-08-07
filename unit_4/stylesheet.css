@@ -1,49 +1,81 @@
-.header{
+@import url(fonts/open_sans)
+@import url(fonts/crimisontext-regular.tff)
+
+header {
 	background-color: white;
 	text-align: center;
-
 }
 
-.above{
+div {
+	display: inline-flex;
+	align-items: center;
+}
+
+nav {
+	text-decoration-color: pink;
+}
+
+.above {
 	background-image: url(images/paint.jpg);
 	background-size: cover;
 	text-align: center;
-	text-decoration-line: underline;
-
+	padding: 20em;
 }
 
-.below{
-	box-sizing: border-box;
-	width: 100%;
-	border:  solid white 10px;
-	padding: 10px;
+h1,h2,h3 {
+	font-size: 2em;
+	font-weight: 2em;
 }
 
-#email{
+h1 {
+	font-family: open_sans, sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: open-sans, sans-serif;
+	font-weight: lighter;
+}
+
+h3 {
+	font-family: open-sans, sans-serif;
+	font-weight: lighter;
+}
+
+p {
+	font-family: crimson
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+	font-family: crimisontext-regular.tff, serif;
+}
+
+.servicesbox {
+	padding: 1em;
+	display: inline-block;
+}
+
+#email {
 	background-color: #F4E2D2;
 	text-align: center;
 }
 
-#website{
+#website {
 	background-color: #FFF5FB;
 	text-align: center;
 }
 
-#socialmedia{
+#socialmedia {
 	background-color: #DBC4DF;
 	text-align: center;
-
 }
 
-#ads{
+#ads {
 	background-color: #B88BAD;
 	text-align: center;
-
 }
 
-
-.footer{
-	background-color: white;
+.footer {
+	background-color: gray;
 	text-align: center;
-
 }

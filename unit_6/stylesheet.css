@@ -1,0 +1,166 @@
+@import url(fonts/open_sans)
+@import url(fonts/crimisontext-regular.tff)
+
+header{
+	background-color: white;
+}
+
+.heading{ 
+ 
+}
+
+/*I want the two flowers to beside my name and be resized to be smaller.*/
+
+nav{
+	margin: 20px;
+	text-align: center;
+}
+
+nav a{
+	background-color: black;
+	padding: 10px 20px;
+	margin: 30px;
+	color: white;
+	font-weight: 20px;
+}
+
+nav a:hover{
+	background-color: pink;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	background-color: pink;
+}
+
+h1 + a{
+	background-color: black;
+	padding: 20px;
+	border: 4px dotted white;
+	font-weight: 900;
+	color: white;
+}
+
+h1,h2,h3{
+	font-size: 2em;
+	font-weight: 2em;
+}
+
+h1{
+	font-family: crimisontext-regular.tff, serif;
+	font-weight: bold;
+}
+
+h2{
+	font-family: crimisontext-regular.tff, serif
+	font-weight: lighter;
+}
+
+h3{
+	font-family: crimisontext-regular.tff, serif;
+	font-weight: lighter;
+}
+
+
+p{
+	font-family: crimson
+	font-size: 18px;
+	line-height: 1.5em;
+	width: 30em;
+	margin: 2em auto;
+	font-family: open-sans, sans-serif;
+}
+
+section{
+	text-align: center;
+}
+
+section h1{
+	padding: 30px 0px;
+	color: black;
+	letter-spacing: .05em;
+	background-color: white;
+}
+
+
+main{
+	/*page-break-before: always;*/
+	background-color: white;
+}
+
+img{
+	margin: 2em 0em;
+}
+
+.above{
+	background-image: url(images/paint.jpg);
+	background-size: cover;
+	text-align: center;
+	padding: 20em;
+}
+
+.servicesbox{
+	height: 25em;
+	margin: 3em;
+	padding: 12px 20px 0px;
+	float: left;
+}
+
+.wrapper{
+	background-color: white;
+}
+
+/*i am having difficulty centering the services boxes, i put a wrapper around the section,
+but i cant find the right width.*/
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#email{
+	background-color: #829DA1;
+}
+
+#website{
+	background-color: #A1A1A1;
+}
+
+#socialmedia{
+	background-color: #A18B82;
+}
+
+#ads{
+	background-color: #E0C79F;
+}
+
+footer{
+	background-color: rgba(163,126,116,.25);
+	padding: 30px;
+	text-align: center;
+}
+
+.subscribe{
+	border-style: solid;
+	border-width: thin;
+	padding-bottom: 40px;
+}
+
+/*i want to make the sides of the box smaller*/
+
+form + p{
+	text-align: center;
+}
+
+hr{
+	width: 300px;
+	margin: 30px auto;
+}
