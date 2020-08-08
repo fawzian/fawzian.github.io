@@ -3,10 +3,10 @@
 
 header{
 	background-color: white;
+	border-style: 4px groove purple;
 }
 
 .heading{ 
- 
 }
 
 /*I want the two flowers to beside my name and be resized to be smaller.*/
@@ -31,6 +31,7 @@ nav a:hover{
 a{
 	text-decoration: none;
 	color: inherit;
+	text-align: center;
 }
 
 a:hover{
@@ -75,10 +76,6 @@ p{
 	font-family: open-sans, sans-serif;
 }
 
-section{
-	text-align: center;
-}
-
 section h1{
 	padding: 30px 0px;
 	color: black;
@@ -105,7 +102,7 @@ img{
 
 .servicesbox{
 	height: 25em;
-	margin: 3em;
+	margin: .5em;
 	padding: 12px 20px 0px;
 	float: left;
 }
@@ -130,17 +127,37 @@ but i cant find the right width.*/
 	background-color: #829DA1;
 }
 
+#email:hover{
+	background-color: green;
+}
+
 #website{
 	background-color: #A1A1A1;
 }
 
+#website:hover{
+	background-color: red;
+}
+
 #socialmedia{
-	background-color: #A18B82;
+	background-color: rgb(161, 139, 130);;
+}
+
+#socialmedia:hover{
+	background-color: orange;
 }
 
 #ads{
 	background-color: #E0C79F;
 }
+
+#ads:hover{
+	background-color: yellow;
+
+}
+
+/*how do i raise the ads and social media text higher into the box--- 
+just make the bottom margin a little bigger?*/
 
 footer{
 	background-color: rgba(163,126,116,.25);
