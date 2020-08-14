@@ -1,18 +1,25 @@
-@import url(fonts/open_sans)
-@import url(fonts/crimisontext-regular.tff)
+/*@import url(fonts/open_sans);
+@import url(fonts/crimisontext-regular.tff);
+*/
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
 
 header{
-	background-color: white;
-	border-style: 4px groove purple;
+	background-color: inherit;
+	float:left;
+	/*border-bottom: 3px solid black;*/
 }
 
-.heading{ 
-	box-shadow: 20px 20px 50px 10px pink;
+header{
+	margin-left: 30px;
 }
-
 
 nav{
-	margin: 20px;
+	margin-top: 20px;
+	margin-left: 0px;
 	text-align: center;
 }
 
@@ -25,7 +32,11 @@ nav a{
 }
 
 nav a:hover{
-	background-color: pink;
+	background-color: #3B547A;
+}
+
+nav a:first-child{
+	margin-left: 0px;
 }
 
 a{
@@ -35,57 +46,59 @@ a{
 }
 
 a:hover{
-	background-color: pink;
+	background-color: #05A1E3;
 }
 
 h1 + a{
 	background-color: black;
-	padding: 20px;
-	border: 4px dotted white;
+	padding: 2em;
+	border: 4px double #3B547A;
 	font-weight: 900;
 	color: white;
+	margin-left: 0px;
+	size: 20px;
 }
 
-h1,h2,h3{
+section h1{
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+	font-size: 5em;
+	width: 15em;
+}
+
+h2,h3{
 	font-size: 2em;
-	font-weight: 2em;
 }
 
 h1{
-	font-family: crimisontext-regular.tff, serif;
+	/*font-family: crimisontext-regular.tff, serif;*/
 	font-weight: bold;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 35px;
 }
 
 h2{
-	font-family: crimisontext-regular.tff, serif
+	/*font-family: crimisontext-regular.tff, serif;*/
 	font-weight: lighter;
 }
 
 h3{
-	font-family: crimisontext-regular.tff, serif;
+	/*font-family: crimisontext-regular.tff, serif;*/
 	font-weight: lighter;
 }
 
 
 p{
-	font-family: crimson
 	font-size: 18px;
 	line-height: 1.5em;
 	width: 30em;
 	margin: 2em auto;
-	font-family: open-sans, sans-serif;
-}
-
-section h1{
-	padding: 30px 0px;
-	color: black;
-	letter-spacing: .05em;
-	background-color: white;
+	/*font-family: open-sans, sans-serif;*/
 }
 
 
 main{
-	/*page-break-before: always;*/
 	background-color: white;
 }
 
@@ -96,23 +109,22 @@ img{
 .above{
 	background-image: url(images/paint.jpg);
 	background-size: cover;
-	text-align: center;
-	padding: 20em;
+	padding: 5em 2em;
+	min-height: 95vh;
 }
 
 .servicesbox{
 	height: 25em;
-	margin: .5em;
-	padding: 12px 20px 0px;
+	margin: .5%;
+	width: 49%;
 	float: left;
+	min-height: 60vh;
+	min-width: 40em;
 }
 
 .wrapper{
 	background-color: white;
 }
-
-/*i am having difficulty centering the services boxes, i put a wrapper around the section,
-but i cant find the right width.*/
 
 .clearfix:after {
     visibility: hidden;
@@ -153,11 +165,7 @@ but i cant find the right width.*/
 
 #ads:hover{
 	background-color: yellow;
-
 }
-
-/*how do i raise the ads and social media text higher into the box--- 
-just make the bottom margin a little bigger?*/
 
 footer{
 	background-color: rgba(163,126,116,.25);
@@ -170,8 +178,6 @@ footer{
 	border-width: thin;
 	padding-bottom: 40px;
 }
-
-/*i want to make the sides of the box smaller*/
 
 form + p{
 	text-align: center;
