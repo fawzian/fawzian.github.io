@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+header{
+	background-color: inherit;
+	float:left;
+}
+
+header{
+	margin-left: 30px;
+}
+
+header h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: lighter;
+}
+
+nav{
+	margin-top: 20px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+nav a{
+	background-color: black;
+	padding: 10px 20px;
+	margin: 30px;
+	color: white;
+	font-weight: 20px;
+}
+
+nav a:hover{
+	background-color: #3B547A;
+}
+
+nav a:first-child{
+	margin-left: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+a:hover{
+	background-color: #05A1E3;
+}
+
+h1 + a{
+	font-family: 'Playfair Display', serif;
+	background-color: black;
+	padding: 2em;
+	border: 4px double #3B547A;
+	color: white;
+	margin-left: 0px;
+	size: 20px;
+}
+
+section h1{
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+	font-size: 5em;
+	width: 15em;
+}
+
+h2,h3{
+	font-size: 2em;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 35px;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	color: black;
+}
+
+p{
+	font-size: 18px;
+	line-height: 1.5em;
+	width: 30em;
+	margin: 2em auto;
+}
+
+
+main{
+	background-color: white;
+}
+
+img{
+	margin: 5em 0 2em 0;
+}
+
+.above{
+	background-image: url(images/paint.jpg);
+	background-size: cover;
+	padding: 5em 2em;
+	min-height: 95vh;
+	width: 100%;
+}
+
+.servicesbox{
+	margin: 2%;
+	width: 46%;
+	float: left;
+	min-height: 40vh;
+	min-width: 1em;
+}
+
+
+.wrapper{
+	background-color: white;
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#email{
+	background-color: #829DA1;
+}
+
+#email:hover{
+	background-color: green;
+}
+
+#Analytics{
+	background-color: #A1A1A1;
+}
+
+#Analytics:hover{
+	background-color: red;
+}
+
+#socialmedia{
+	background-color: rgb(161, 139, 130);;
+}
+
+#socialmedia:hover{
+	background-color: orange;
+}
+
+#ads{
+	background-color: #E0C79F;
+}
+
+#ads:hover{
+	background-color: yellow;
+}
+
+footer{
+	background-color: rgba(163,126,116,.25);
+	padding: 30px;
+	text-align: center;
+}
+
+.subscribe{
+	padding-bottom: 40px;
+}
+
+form + p{
+	text-align: center;
+	font-weight: bold;
+}
+
+hr{
+	width: 300px;
+	margin: 30px auto;
+}
+
+hr + a:hover{
+	text-decoration: underline;
+	background-color: rgba(163,126,116,.25);
+}
+
+
+@media only screen and (max-width: 1225px) {
+	
+	h1 {
+		font-size: 25px;
+	}
+
+	section h1{
+		padding-top: 10%;
+		padding-bottom: 10%;
+		font-size: 4em;
+		width: 80%;
+	}
+
+	h1 + a{
+		font-family: 'Playfair Display', serif;
+		background-color: black;
+		padding: 1em;
+		border: 4px double #3B547A;
+		color: white;
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 690px) {
+
+	section h1{
+		padding-top: 10%;
+		padding-bottom: 10%;
+		font-size: 3em;
+		width: 80%;
+	}
+
+	nav a{
+		background-color: black;
+		padding: 10px 10px;
+		margin: 30px;
+		color: white;
+		font-weight: 20px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	nav a{
+		background-color: black;
+		padding: 10px 20px;
+		margin: 0px;
+		color: white;
+		font-weight: 20px;
+		}
+
+	section h1{
+		padding-top: 25%;
+		padding-bottom: 10%;
+		font-size: 2em;
+	}
+
+	}
+
+
+
+
